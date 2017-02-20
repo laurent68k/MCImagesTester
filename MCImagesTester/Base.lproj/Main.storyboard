@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Day image-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="DayViewController" customModule="MCImagesTester" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -17,36 +21,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ctg-3N-Y4q">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BU2-bf-ieu">
+                                <rect key="frame" x="0.0" y="394" width="375" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="ESG-NC-7eW"/>
+                                </constraints>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nME-Xq-ndv">
+                                <rect key="frame" x="8" y="87" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="Mbr-gq-fk6"/>
+                                    <constraint firstAttribute="width" constant="125" id="zNY-7T-VVS"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="nME-Xq-ndv" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="67" id="069-5f-c1t"/>
+                            <constraint firstAttribute="trailing" secondItem="ctg-3N-Y4q" secondAttribute="trailing" id="08h-hU-kcj"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="BU2-bf-ieu" secondAttribute="bottom" constant="8" id="27E-vH-Qk9"/>
+                            <constraint firstAttribute="trailing" secondItem="BU2-bf-ieu" secondAttribute="trailing" id="EMe-ls-BhD"/>
+                            <constraint firstItem="ctg-3N-Y4q" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="eSi-nb-9dO"/>
+                            <constraint firstItem="BU2-bf-ieu" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="h0a-uT-T3T"/>
+                            <constraint firstItem="nME-Xq-ndv" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="8" id="uOX-Gx-l69"/>
+                            <constraint firstItem="ctg-3N-Y4q" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="28" id="xU6-2F-6NY"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="ctg-3N-Y4q" secondAttribute="bottom" id="zr5-vR-boB"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Day image" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="ctg-3N-Y4q" id="Mu4-Tg-ITR"/>
+                        <outlet property="pickerWheelView" destination="BU2-bf-ieu" id="s5p-ah-iDG"/>
+                        <outlet property="trendImageView" destination="nME-Xq-ndv" id="KRv-wY-Ehm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
-        <!--Second-->
+        <!--Night Image-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="NightViewController" customModule="MCImagesTester" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -55,31 +74,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LE3-8l-x06">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nn9-mj-5GT">
+                                <rect key="frame" x="8" y="87" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="bNu-9a-TEf"/>
+                                    <constraint firstAttribute="width" constant="125" id="v4S-cW-ULO"/>
+                                </constraints>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKs-GQ-k2b">
+                                <rect key="frame" x="0.0" y="402" width="375" height="216"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="LE3-8l-x06" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="1S3-9P-Qkj"/>
+                            <constraint firstItem="LE3-8l-x06" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" constant="28" id="6Do-Ua-TKd"/>
+                            <constraint firstItem="MKs-GQ-k2b" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="71i-OM-zpR"/>
+                            <constraint firstAttribute="trailing" secondItem="LE3-8l-x06" secondAttribute="trailing" id="L40-xR-Z5i"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="LE3-8l-x06" secondAttribute="bottom" id="T6L-ar-SC3"/>
+                            <constraint firstAttribute="trailing" secondItem="MKs-GQ-k2b" secondAttribute="trailing" id="ZvS-9c-LrC"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="MKs-GQ-k2b" secondAttribute="bottom" id="oQF-Jo-WBa"/>
+                            <constraint firstItem="Nn9-mj-5GT" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="8" id="pzq-Oy-Z2A"/>
+                            <constraint firstItem="Nn9-mj-5GT" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="67" id="sDk-3Z-Lz3"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Night Image" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="LE3-8l-x06" id="cQB-BJ-ahL"/>
+                        <outlet property="pickerWheelView" destination="MKs-GQ-k2b" id="GUR-Ry-wDv"/>
+                        <outlet property="trendImageView" destination="Nn9-mj-5GT" id="s6X-Ao-ebf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -98,7 +129,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-38" y="0.0"/>
         </scene>
     </scenes>
     <resources>

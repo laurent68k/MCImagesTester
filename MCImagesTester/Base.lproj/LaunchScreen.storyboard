@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,55 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundCloud.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5pn-lP-6Ax">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pVZ-q8-0Ki">
+                                <rect key="frame" x="22" y="323.5" width="330.5" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Météo Cities Images Tester" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9u-Hx-xb0">
+                                        <rect key="frame" x="0.0" y="0.0" width="330.5" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20.5" id="Pb1-Lr-cv3"/>
+                                            <constraint firstAttribute="width" constant="330.5" id="XsH-wV-Q2q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laurent Favard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4Z-Ig-Mfk">
+                                <rect key="frame" x="22" y="359" width="330.5" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="eaq-yl-wvG"/>
+                                    <constraint firstAttribute="width" constant="330.5" id="i3b-Z6-UMx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pVZ-q8-0Ki" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HDl-Ii-pau"/>
+                            <constraint firstItem="5pn-lP-6Ax" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KOf-wa-Erb"/>
+                            <constraint firstAttribute="trailing" secondItem="5pn-lP-6Ax" secondAttribute="trailing" id="Mag-vN-WN4"/>
+                            <constraint firstItem="P4Z-Ig-Mfk" firstAttribute="top" secondItem="pVZ-q8-0Ki" secondAttribute="bottom" constant="15" id="TFm-1H-TSw"/>
+                            <constraint firstItem="pVZ-q8-0Ki" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Wob-Fa-QyH"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="5pn-lP-6Ax" secondAttribute="bottom" id="Y5H-GH-lPK"/>
+                            <constraint firstItem="5pn-lP-6Ax" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cnt-N5-Md8"/>
+                            <constraint firstItem="P4Z-Ig-Mfk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="heW-Hb-Od0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BackgroundCloud.jpg" width="2732" height="2048"/>
+    </resources>
 </document>
