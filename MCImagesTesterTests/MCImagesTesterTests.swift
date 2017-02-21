@@ -21,15 +21,37 @@ class MCImagesTesterTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testImagesDayExist() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        
+        for imageName in ImagesManager.listDay {
+        
+            XCTAssert(!imageName.isEmpty, "Test error as listDay contents an empty imafe filename")
+
+            if !imageName.isEmpty {
+                
+                let image = UIImage( named: imageName )
+                
+                XCTAssert(image != nil, "Test error as image: '\(imageName)' doesn't exists")
+            }
+        }
+     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testImagesNightExist() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        for imageName in ImagesManager.listNight {
+            
+            XCTAssert(!imageName.isEmpty, "Test error as listNight contents an empty imafe filename")
+            
+            if !imageName.isEmpty {
+                
+                let image = UIImage( named: imageName )
+                
+                XCTAssert(image != nil, "Test error as image: '\(imageName)' doesn't exists")
+            }
         }
     }
     
