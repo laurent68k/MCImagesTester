@@ -18,37 +18,41 @@
 		4D0636171E5B1FAC00BE4ED1 /* BackgroundStars.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636151E5B1FAC00BE4ED1 /* BackgroundStars.png */; };
 		4D06361A1E5B20BA00BE4ED1 /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0636191E5B20BA00BE4ED1 /* ImagesManager.swift */; };
 		4D06361C1E5B20EB00BE4ED1 /* ConditionKeyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D06361B1E5B20EB00BE4ED1 /* ConditionKeyEnum.swift */; };
-		4D0636741E5B2D3800BE4ED1 /* averses-de-neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636571E5B2D3800BE4ED1 /* averses-de-neige-faible.png */; };
-		4D0636751E5B2D3800BE4ED1 /* averses-de-pluie-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636581E5B2D3800BE4ED1 /* averses-de-pluie-faible.png */; };
-		4D0636761E5B2D3800BE4ED1 /* averses-de-pluie-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636591E5B2D3800BE4ED1 /* averses-de-pluie-forte.png */; };
-		4D0636771E5B2D3800BE4ED1 /* averses-de-pluie-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365A1E5B2D3800BE4ED1 /* averses-de-pluie-moderee.png */; };
-		4D0636781E5B2D3800BE4ED1 /* ciel-voile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365B1E5B2D3800BE4ED1 /* ciel-voile.png */; };
-		4D0636791E5B2D3800BE4ED1 /* couvert-avec-averses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365C1E5B2D3800BE4ED1 /* couvert-avec-averses.png */; };
-		4D06367A1E5B2D3800BE4ED1 /* developpement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365D1E5B2D3800BE4ED1 /* developpement-nuageux.png */; };
-		4D06367B1E5B2D3800BE4ED1 /* eclaircies.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365E1E5B2D3800BE4ED1 /* eclaircies.png */; };
-		4D06367C1E5B2D3800BE4ED1 /* ensoleille.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06365F1E5B2D3800BE4ED1 /* ensoleille.png */; };
-		4D06367D1E5B2D3800BE4ED1 /* faiblement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636601E5B2D3800BE4ED1 /* faiblement-nuageux.png */; };
-		4D06367E1E5B2D3800BE4ED1 /* faibles-passages-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636611E5B2D3800BE4ED1 /* faibles-passages-nuageux.png */; };
-		4D06367F1E5B2D3800BE4ED1 /* fortement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636621E5B2D3800BE4ED1 /* fortement-nuageux.png */; };
-		4D0636801E5B2D3800BE4ED1 /* neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636631E5B2D3800BE4ED1 /* neige-faible.png */; };
-		4D0636811E5B2D3800BE4ED1 /* neige-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636641E5B2D3800BE4ED1 /* neige-forte.png */; };
-		4D0636821E5B2D3800BE4ED1 /* neige-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636651E5B2D3800BE4ED1 /* neige-moderee.png */; };
-		4D0636831E5B2D3800BE4ED1 /* nuit-avec-averses-de-neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636661E5B2D3800BE4ED1 /* nuit-avec-averses-de-neige-faible.png */; };
-		4D0636841E5B2D3800BE4ED1 /* nuit-avec-averses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636671E5B2D3800BE4ED1 /* nuit-avec-averses.png */; };
-		4D0636851E5B2D3800BE4ED1 /* nuit-avec-developpement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636681E5B2D3800BE4ED1 /* nuit-avec-developpement-nuageux.png */; };
-		4D0636861E5B2D3800BE4ED1 /* nuit-bien-degagee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636691E5B2D3800BE4ED1 /* nuit-bien-degagee.png */; };
-		4D0636871E5B2D3800BE4ED1 /* nuit-claire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366A1E5B2D3800BE4ED1 /* nuit-claire.png */; };
-		4D0636881E5B2D3800BE4ED1 /* nuit-legerement-voilee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366B1E5B2D3800BE4ED1 /* nuit-legerement-voilee.png */; };
-		4D0636891E5B2D3800BE4ED1 /* nuit-nuageuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366C1E5B2D3800BE4ED1 /* nuit-nuageuse.png */; };
-		4D06368A1E5B2D3800BE4ED1 /* pluie-et-neige-melee-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366D1E5B2D3800BE4ED1 /* pluie-et-neige-melee-faible.png */; };
-		4D06368B1E5B2D3800BE4ED1 /* pluie-et-neige-melee-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366E1E5B2D3800BE4ED1 /* pluie-et-neige-melee-forte.png */; };
-		4D06368C1E5B2D3800BE4ED1 /* pluie-et-neige-melee-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06366F1E5B2D3800BE4ED1 /* pluie-et-neige-melee-moderee.png */; };
-		4D06368D1E5B2D3800BE4ED1 /* pluie-et-neige-melee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636701E5B2D3800BE4ED1 /* pluie-et-neige-melee.png */; };
-		4D06368E1E5B2D3800BE4ED1 /* pluie-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636711E5B2D3800BE4ED1 /* pluie-faible.png */; };
-		4D06368F1E5B2D3800BE4ED1 /* pluie-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636721E5B2D3800BE4ED1 /* pluie-forte.png */; };
-		4D0636901E5B2D3800BE4ED1 /* pluie-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0636731E5B2D3800BE4ED1 /* pluie-moderee.png */; };
 		4D0637441E5B32A800BE4ED1 /* BackgroundCloud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0637431E5B32A800BE4ED1 /* BackgroundCloud.jpg */; };
 		4D0637481E5B477800BE4ED1 /* QuestionMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0637471E5B477800BE4ED1 /* QuestionMark.png */; };
+		4D9C5ECE1E5D898A0008E531 /* nuit-avec-averses-de-neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EC61E5D898A0008E531 /* nuit-avec-averses-de-neige-faible.png */; };
+		4D9C5ECF1E5D898A0008E531 /* nuit-avec-averses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EC71E5D898A0008E531 /* nuit-avec-averses.png */; };
+		4D9C5ED01E5D898A0008E531 /* nuit-avec-developpement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EC81E5D898A0008E531 /* nuit-avec-developpement-nuageux.png */; };
+		4D9C5ED11E5D898A0008E531 /* nuit-bien-degagee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EC91E5D898A0008E531 /* nuit-bien-degagee.png */; };
+		4D9C5ED21E5D898A0008E531 /* nuit-claire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ECA1E5D898A0008E531 /* nuit-claire.png */; };
+		4D9C5ED31E5D898A0008E531 /* nuit-faiblement-orageuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ECB1E5D898A0008E531 /* nuit-faiblement-orageuse.png */; };
+		4D9C5ED41E5D898A0008E531 /* nuit-legerement-voilee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ECC1E5D898A0008E531 /* nuit-legerement-voilee.png */; };
+		4D9C5ED51E5D898A0008E531 /* nuit-nuageuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ECD1E5D898A0008E531 /* nuit-nuageuse.png */; };
+		4D9C5EEF1E5D89920008E531 /* averses-de-neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ED61E5D89920008E531 /* averses-de-neige-faible.png */; };
+		4D9C5EF01E5D89920008E531 /* averses-de-pluie-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ED71E5D89920008E531 /* averses-de-pluie-faible.png */; };
+		4D9C5EF11E5D89920008E531 /* averses-de-pluie-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ED81E5D89920008E531 /* averses-de-pluie-forte.png */; };
+		4D9C5EF21E5D89920008E531 /* averses-de-pluie-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5ED91E5D89920008E531 /* averses-de-pluie-moderee.png */; };
+		4D9C5EF31E5D89920008E531 /* ciel-voile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDA1E5D89920008E531 /* ciel-voile.png */; };
+		4D9C5EF41E5D89920008E531 /* couvert-avec-averses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDB1E5D89920008E531 /* couvert-avec-averses.png */; };
+		4D9C5EF51E5D89920008E531 /* developpement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDC1E5D89920008E531 /* developpement-nuageux.png */; };
+		4D9C5EF61E5D89920008E531 /* eclaircies.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDD1E5D89920008E531 /* eclaircies.png */; };
+		4D9C5EF71E5D89920008E531 /* ensoleille.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDE1E5D89920008E531 /* ensoleille.png */; };
+		4D9C5EF81E5D89920008E531 /* faiblement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EDF1E5D89920008E531 /* faiblement-nuageux.png */; };
+		4D9C5EF91E5D89920008E531 /* faiblement-orageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE01E5D89920008E531 /* faiblement-orageux.png */; };
+		4D9C5EFA1E5D89920008E531 /* faibles-passages-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE11E5D89920008E531 /* faibles-passages-nuageux.png */; };
+		4D9C5EFB1E5D89920008E531 /* fortement-nuageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE21E5D89920008E531 /* fortement-nuageux.png */; };
+		4D9C5EFC1E5D89920008E531 /* fortement-orageux.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE31E5D89920008E531 /* fortement-orageux.png */; };
+		4D9C5EFD1E5D89920008E531 /* neige-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE41E5D89920008E531 /* neige-faible.png */; };
+		4D9C5EFE1E5D89920008E531 /* neige-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE51E5D89920008E531 /* neige-forte.png */; };
+		4D9C5EFF1E5D89920008E531 /* neige-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE61E5D89920008E531 /* neige-moderee.png */; };
+		4D9C5F001E5D89920008E531 /* orage-modere.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE71E5D89920008E531 /* orage-modere.png */; };
+		4D9C5F011E5D89920008E531 /* pluie-et-neige-melee-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE81E5D89920008E531 /* pluie-et-neige-melee-faible.png */; };
+		4D9C5F021E5D89920008E531 /* pluie-et-neige-melee-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EE91E5D89920008E531 /* pluie-et-neige-melee-forte.png */; };
+		4D9C5F031E5D89920008E531 /* pluie-et-neige-melee-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EEA1E5D89920008E531 /* pluie-et-neige-melee-moderee.png */; };
+		4D9C5F041E5D89920008E531 /* pluie-et-neige-melee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EEB1E5D89920008E531 /* pluie-et-neige-melee.png */; };
+		4D9C5F051E5D89920008E531 /* pluie-faible.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EEC1E5D89920008E531 /* pluie-faible.png */; };
+		4D9C5F061E5D89920008E531 /* pluie-forte.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EED1E5D89920008E531 /* pluie-forte.png */; };
+		4D9C5F071E5D89920008E531 /* pluie-moderee.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C5EEE1E5D89920008E531 /* pluie-moderee.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,37 +81,41 @@
 		4D0636151E5B1FAC00BE4ED1 /* BackgroundStars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundStars.png; sourceTree = "<group>"; };
 		4D0636191E5B20BA00BE4ED1 /* ImagesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesManager.swift; sourceTree = "<group>"; };
 		4D06361B1E5B20EB00BE4ED1 /* ConditionKeyEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionKeyEnum.swift; sourceTree = "<group>"; };
-		4D0636571E5B2D3800BE4ED1 /* averses-de-neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "averses-de-neige-faible.png"; path = "TrendsPictures/averses-de-neige-faible.png"; sourceTree = "<group>"; };
-		4D0636581E5B2D3800BE4ED1 /* averses-de-pluie-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "averses-de-pluie-faible.png"; path = "TrendsPictures/averses-de-pluie-faible.png"; sourceTree = "<group>"; };
-		4D0636591E5B2D3800BE4ED1 /* averses-de-pluie-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "averses-de-pluie-forte.png"; path = "TrendsPictures/averses-de-pluie-forte.png"; sourceTree = "<group>"; };
-		4D06365A1E5B2D3800BE4ED1 /* averses-de-pluie-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "averses-de-pluie-moderee.png"; path = "TrendsPictures/averses-de-pluie-moderee.png"; sourceTree = "<group>"; };
-		4D06365B1E5B2D3800BE4ED1 /* ciel-voile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ciel-voile.png"; path = "TrendsPictures/ciel-voile.png"; sourceTree = "<group>"; };
-		4D06365C1E5B2D3800BE4ED1 /* couvert-avec-averses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "couvert-avec-averses.png"; path = "TrendsPictures/couvert-avec-averses.png"; sourceTree = "<group>"; };
-		4D06365D1E5B2D3800BE4ED1 /* developpement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "developpement-nuageux.png"; path = "TrendsPictures/developpement-nuageux.png"; sourceTree = "<group>"; };
-		4D06365E1E5B2D3800BE4ED1 /* eclaircies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eclaircies.png; path = TrendsPictures/eclaircies.png; sourceTree = "<group>"; };
-		4D06365F1E5B2D3800BE4ED1 /* ensoleille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ensoleille.png; path = TrendsPictures/ensoleille.png; sourceTree = "<group>"; };
-		4D0636601E5B2D3800BE4ED1 /* faiblement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "faiblement-nuageux.png"; path = "TrendsPictures/faiblement-nuageux.png"; sourceTree = "<group>"; };
-		4D0636611E5B2D3800BE4ED1 /* faibles-passages-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "faibles-passages-nuageux.png"; path = "TrendsPictures/faibles-passages-nuageux.png"; sourceTree = "<group>"; };
-		4D0636621E5B2D3800BE4ED1 /* fortement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fortement-nuageux.png"; path = "TrendsPictures/fortement-nuageux.png"; sourceTree = "<group>"; };
-		4D0636631E5B2D3800BE4ED1 /* neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "neige-faible.png"; path = "TrendsPictures/neige-faible.png"; sourceTree = "<group>"; };
-		4D0636641E5B2D3800BE4ED1 /* neige-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "neige-forte.png"; path = "TrendsPictures/neige-forte.png"; sourceTree = "<group>"; };
-		4D0636651E5B2D3800BE4ED1 /* neige-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "neige-moderee.png"; path = "TrendsPictures/neige-moderee.png"; sourceTree = "<group>"; };
-		4D0636661E5B2D3800BE4ED1 /* nuit-avec-averses-de-neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-avec-averses-de-neige-faible.png"; path = "TrendsPictures/nuit-avec-averses-de-neige-faible.png"; sourceTree = "<group>"; };
-		4D0636671E5B2D3800BE4ED1 /* nuit-avec-averses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-avec-averses.png"; path = "TrendsPictures/nuit-avec-averses.png"; sourceTree = "<group>"; };
-		4D0636681E5B2D3800BE4ED1 /* nuit-avec-developpement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-avec-developpement-nuageux.png"; path = "TrendsPictures/nuit-avec-developpement-nuageux.png"; sourceTree = "<group>"; };
-		4D0636691E5B2D3800BE4ED1 /* nuit-bien-degagee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-bien-degagee.png"; path = "TrendsPictures/nuit-bien-degagee.png"; sourceTree = "<group>"; };
-		4D06366A1E5B2D3800BE4ED1 /* nuit-claire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-claire.png"; path = "TrendsPictures/nuit-claire.png"; sourceTree = "<group>"; };
-		4D06366B1E5B2D3800BE4ED1 /* nuit-legerement-voilee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-legerement-voilee.png"; path = "TrendsPictures/nuit-legerement-voilee.png"; sourceTree = "<group>"; };
-		4D06366C1E5B2D3800BE4ED1 /* nuit-nuageuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nuit-nuageuse.png"; path = "TrendsPictures/nuit-nuageuse.png"; sourceTree = "<group>"; };
-		4D06366D1E5B2D3800BE4ED1 /* pluie-et-neige-melee-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-et-neige-melee-faible.png"; path = "TrendsPictures/pluie-et-neige-melee-faible.png"; sourceTree = "<group>"; };
-		4D06366E1E5B2D3800BE4ED1 /* pluie-et-neige-melee-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-et-neige-melee-forte.png"; path = "TrendsPictures/pluie-et-neige-melee-forte.png"; sourceTree = "<group>"; };
-		4D06366F1E5B2D3800BE4ED1 /* pluie-et-neige-melee-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-et-neige-melee-moderee.png"; path = "TrendsPictures/pluie-et-neige-melee-moderee.png"; sourceTree = "<group>"; };
-		4D0636701E5B2D3800BE4ED1 /* pluie-et-neige-melee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-et-neige-melee.png"; path = "TrendsPictures/pluie-et-neige-melee.png"; sourceTree = "<group>"; };
-		4D0636711E5B2D3800BE4ED1 /* pluie-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-faible.png"; path = "TrendsPictures/pluie-faible.png"; sourceTree = "<group>"; };
-		4D0636721E5B2D3800BE4ED1 /* pluie-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-forte.png"; path = "TrendsPictures/pluie-forte.png"; sourceTree = "<group>"; };
-		4D0636731E5B2D3800BE4ED1 /* pluie-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pluie-moderee.png"; path = "TrendsPictures/pluie-moderee.png"; sourceTree = "<group>"; };
 		4D0637431E5B32A800BE4ED1 /* BackgroundCloud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundCloud.jpg; sourceTree = "<group>"; };
 		4D0637471E5B477800BE4ED1 /* QuestionMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuestionMark.png; sourceTree = "<group>"; };
+		4D9C5EC61E5D898A0008E531 /* nuit-avec-averses-de-neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-avec-averses-de-neige-faible.png"; sourceTree = "<group>"; };
+		4D9C5EC71E5D898A0008E531 /* nuit-avec-averses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-avec-averses.png"; sourceTree = "<group>"; };
+		4D9C5EC81E5D898A0008E531 /* nuit-avec-developpement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-avec-developpement-nuageux.png"; sourceTree = "<group>"; };
+		4D9C5EC91E5D898A0008E531 /* nuit-bien-degagee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-bien-degagee.png"; sourceTree = "<group>"; };
+		4D9C5ECA1E5D898A0008E531 /* nuit-claire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-claire.png"; sourceTree = "<group>"; };
+		4D9C5ECB1E5D898A0008E531 /* nuit-faiblement-orageuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-faiblement-orageuse.png"; sourceTree = "<group>"; };
+		4D9C5ECC1E5D898A0008E531 /* nuit-legerement-voilee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-legerement-voilee.png"; sourceTree = "<group>"; };
+		4D9C5ECD1E5D898A0008E531 /* nuit-nuageuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nuit-nuageuse.png"; sourceTree = "<group>"; };
+		4D9C5ED61E5D89920008E531 /* averses-de-neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "averses-de-neige-faible.png"; sourceTree = "<group>"; };
+		4D9C5ED71E5D89920008E531 /* averses-de-pluie-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "averses-de-pluie-faible.png"; sourceTree = "<group>"; };
+		4D9C5ED81E5D89920008E531 /* averses-de-pluie-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "averses-de-pluie-forte.png"; sourceTree = "<group>"; };
+		4D9C5ED91E5D89920008E531 /* averses-de-pluie-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "averses-de-pluie-moderee.png"; sourceTree = "<group>"; };
+		4D9C5EDA1E5D89920008E531 /* ciel-voile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ciel-voile.png"; sourceTree = "<group>"; };
+		4D9C5EDB1E5D89920008E531 /* couvert-avec-averses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couvert-avec-averses.png"; sourceTree = "<group>"; };
+		4D9C5EDC1E5D89920008E531 /* developpement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "developpement-nuageux.png"; sourceTree = "<group>"; };
+		4D9C5EDD1E5D89920008E531 /* eclaircies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eclaircies.png; sourceTree = "<group>"; };
+		4D9C5EDE1E5D89920008E531 /* ensoleille.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ensoleille.png; sourceTree = "<group>"; };
+		4D9C5EDF1E5D89920008E531 /* faiblement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faiblement-nuageux.png"; sourceTree = "<group>"; };
+		4D9C5EE01E5D89920008E531 /* faiblement-orageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faiblement-orageux.png"; sourceTree = "<group>"; };
+		4D9C5EE11E5D89920008E531 /* faibles-passages-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faibles-passages-nuageux.png"; sourceTree = "<group>"; };
+		4D9C5EE21E5D89920008E531 /* fortement-nuageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fortement-nuageux.png"; sourceTree = "<group>"; };
+		4D9C5EE31E5D89920008E531 /* fortement-orageux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fortement-orageux.png"; sourceTree = "<group>"; };
+		4D9C5EE41E5D89920008E531 /* neige-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neige-faible.png"; sourceTree = "<group>"; };
+		4D9C5EE51E5D89920008E531 /* neige-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neige-forte.png"; sourceTree = "<group>"; };
+		4D9C5EE61E5D89920008E531 /* neige-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neige-moderee.png"; sourceTree = "<group>"; };
+		4D9C5EE71E5D89920008E531 /* orage-modere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orage-modere.png"; sourceTree = "<group>"; };
+		4D9C5EE81E5D89920008E531 /* pluie-et-neige-melee-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-et-neige-melee-faible.png"; sourceTree = "<group>"; };
+		4D9C5EE91E5D89920008E531 /* pluie-et-neige-melee-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-et-neige-melee-forte.png"; sourceTree = "<group>"; };
+		4D9C5EEA1E5D89920008E531 /* pluie-et-neige-melee-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-et-neige-melee-moderee.png"; sourceTree = "<group>"; };
+		4D9C5EEB1E5D89920008E531 /* pluie-et-neige-melee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-et-neige-melee.png"; sourceTree = "<group>"; };
+		4D9C5EEC1E5D89920008E531 /* pluie-faible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-faible.png"; sourceTree = "<group>"; };
+		4D9C5EED1E5D89920008E531 /* pluie-forte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-forte.png"; sourceTree = "<group>"; };
+		4D9C5EEE1E5D89920008E531 /* pluie-moderee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pluie-moderee.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,35 +191,39 @@
 		4D0636121E5B1EBF00BE4ED1 /* TrendsPictures */ = {
 			isa = PBXGroup;
 			children = (
-				4D0636571E5B2D3800BE4ED1 /* averses-de-neige-faible.png */,
-				4D0636581E5B2D3800BE4ED1 /* averses-de-pluie-faible.png */,
-				4D0636591E5B2D3800BE4ED1 /* averses-de-pluie-forte.png */,
-				4D06365A1E5B2D3800BE4ED1 /* averses-de-pluie-moderee.png */,
-				4D06365B1E5B2D3800BE4ED1 /* ciel-voile.png */,
-				4D06365C1E5B2D3800BE4ED1 /* couvert-avec-averses.png */,
-				4D06365D1E5B2D3800BE4ED1 /* developpement-nuageux.png */,
-				4D06365E1E5B2D3800BE4ED1 /* eclaircies.png */,
-				4D06365F1E5B2D3800BE4ED1 /* ensoleille.png */,
-				4D0636601E5B2D3800BE4ED1 /* faiblement-nuageux.png */,
-				4D0636611E5B2D3800BE4ED1 /* faibles-passages-nuageux.png */,
-				4D0636621E5B2D3800BE4ED1 /* fortement-nuageux.png */,
-				4D0636631E5B2D3800BE4ED1 /* neige-faible.png */,
-				4D0636641E5B2D3800BE4ED1 /* neige-forte.png */,
-				4D0636651E5B2D3800BE4ED1 /* neige-moderee.png */,
-				4D0636661E5B2D3800BE4ED1 /* nuit-avec-averses-de-neige-faible.png */,
-				4D0636671E5B2D3800BE4ED1 /* nuit-avec-averses.png */,
-				4D0636681E5B2D3800BE4ED1 /* nuit-avec-developpement-nuageux.png */,
-				4D0636691E5B2D3800BE4ED1 /* nuit-bien-degagee.png */,
-				4D06366A1E5B2D3800BE4ED1 /* nuit-claire.png */,
-				4D06366B1E5B2D3800BE4ED1 /* nuit-legerement-voilee.png */,
-				4D06366C1E5B2D3800BE4ED1 /* nuit-nuageuse.png */,
-				4D06366D1E5B2D3800BE4ED1 /* pluie-et-neige-melee-faible.png */,
-				4D06366E1E5B2D3800BE4ED1 /* pluie-et-neige-melee-forte.png */,
-				4D06366F1E5B2D3800BE4ED1 /* pluie-et-neige-melee-moderee.png */,
-				4D0636701E5B2D3800BE4ED1 /* pluie-et-neige-melee.png */,
-				4D0636711E5B2D3800BE4ED1 /* pluie-faible.png */,
-				4D0636721E5B2D3800BE4ED1 /* pluie-forte.png */,
-				4D0636731E5B2D3800BE4ED1 /* pluie-moderee.png */,
+				4D9C5ED61E5D89920008E531 /* averses-de-neige-faible.png */,
+				4D9C5ED71E5D89920008E531 /* averses-de-pluie-faible.png */,
+				4D9C5ED81E5D89920008E531 /* averses-de-pluie-forte.png */,
+				4D9C5ED91E5D89920008E531 /* averses-de-pluie-moderee.png */,
+				4D9C5EDA1E5D89920008E531 /* ciel-voile.png */,
+				4D9C5EDB1E5D89920008E531 /* couvert-avec-averses.png */,
+				4D9C5EDC1E5D89920008E531 /* developpement-nuageux.png */,
+				4D9C5EDD1E5D89920008E531 /* eclaircies.png */,
+				4D9C5EDE1E5D89920008E531 /* ensoleille.png */,
+				4D9C5EDF1E5D89920008E531 /* faiblement-nuageux.png */,
+				4D9C5EE01E5D89920008E531 /* faiblement-orageux.png */,
+				4D9C5EE11E5D89920008E531 /* faibles-passages-nuageux.png */,
+				4D9C5EE21E5D89920008E531 /* fortement-nuageux.png */,
+				4D9C5EE31E5D89920008E531 /* fortement-orageux.png */,
+				4D9C5EE41E5D89920008E531 /* neige-faible.png */,
+				4D9C5EE51E5D89920008E531 /* neige-forte.png */,
+				4D9C5EE61E5D89920008E531 /* neige-moderee.png */,
+				4D9C5EE71E5D89920008E531 /* orage-modere.png */,
+				4D9C5EE81E5D89920008E531 /* pluie-et-neige-melee-faible.png */,
+				4D9C5EE91E5D89920008E531 /* pluie-et-neige-melee-forte.png */,
+				4D9C5EEA1E5D89920008E531 /* pluie-et-neige-melee-moderee.png */,
+				4D9C5EEB1E5D89920008E531 /* pluie-et-neige-melee.png */,
+				4D9C5EEC1E5D89920008E531 /* pluie-faible.png */,
+				4D9C5EED1E5D89920008E531 /* pluie-forte.png */,
+				4D9C5EEE1E5D89920008E531 /* pluie-moderee.png */,
+				4D9C5EC61E5D898A0008E531 /* nuit-avec-averses-de-neige-faible.png */,
+				4D9C5EC71E5D898A0008E531 /* nuit-avec-averses.png */,
+				4D9C5EC81E5D898A0008E531 /* nuit-avec-developpement-nuageux.png */,
+				4D9C5EC91E5D898A0008E531 /* nuit-bien-degagee.png */,
+				4D9C5ECA1E5D898A0008E531 /* nuit-claire.png */,
+				4D9C5ECB1E5D898A0008E531 /* nuit-faiblement-orageuse.png */,
+				4D9C5ECC1E5D898A0008E531 /* nuit-legerement-voilee.png */,
+				4D9C5ECD1E5D898A0008E531 /* nuit-nuageuse.png */,
 			);
 			name = TrendsPictures;
 			sourceTree = "<group>";
@@ -321,42 +333,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D06367D1E5B2D3800BE4ED1 /* faiblement-nuageux.png in Resources */,
+				4D9C5F021E5D89920008E531 /* pluie-et-neige-melee-forte.png in Resources */,
+				4D9C5EF21E5D89920008E531 /* averses-de-pluie-moderee.png in Resources */,
 				4D0635FC1E5B1E6E00BE4ED1 /* LaunchScreen.storyboard in Resources */,
 				4D0637481E5B477800BE4ED1 /* QuestionMark.png in Resources */,
-				4D0636891E5B2D3800BE4ED1 /* nuit-nuageuse.png in Resources */,
-				4D0636861E5B2D3800BE4ED1 /* nuit-bien-degagee.png in Resources */,
+				4D9C5F031E5D89920008E531 /* pluie-et-neige-melee-moderee.png in Resources */,
+				4D9C5F001E5D89920008E531 /* orage-modere.png in Resources */,
+				4D9C5EEF1E5D89920008E531 /* averses-de-neige-faible.png in Resources */,
 				4D0635F91E5B1E6E00BE4ED1 /* Assets.xcassets in Resources */,
-				4D06368F1E5B2D3800BE4ED1 /* pluie-forte.png in Resources */,
-				4D06368A1E5B2D3800BE4ED1 /* pluie-et-neige-melee-faible.png in Resources */,
-				4D0636901E5B2D3800BE4ED1 /* pluie-moderee.png in Resources */,
-				4D06367E1E5B2D3800BE4ED1 /* faibles-passages-nuageux.png in Resources */,
-				4D0636871E5B2D3800BE4ED1 /* nuit-claire.png in Resources */,
-				4D0636811E5B2D3800BE4ED1 /* neige-forte.png in Resources */,
-				4D06367A1E5B2D3800BE4ED1 /* developpement-nuageux.png in Resources */,
-				4D06367F1E5B2D3800BE4ED1 /* fortement-nuageux.png in Resources */,
-				4D0636851E5B2D3800BE4ED1 /* nuit-avec-developpement-nuageux.png in Resources */,
-				4D06367C1E5B2D3800BE4ED1 /* ensoleille.png in Resources */,
-				4D0636831E5B2D3800BE4ED1 /* nuit-avec-averses-de-neige-faible.png in Resources */,
-				4D0636741E5B2D3800BE4ED1 /* averses-de-neige-faible.png in Resources */,
-				4D0636791E5B2D3800BE4ED1 /* couvert-avec-averses.png in Resources */,
-				4D0636771E5B2D3800BE4ED1 /* averses-de-pluie-moderee.png in Resources */,
-				4D0636881E5B2D3800BE4ED1 /* nuit-legerement-voilee.png in Resources */,
-				4D06368E1E5B2D3800BE4ED1 /* pluie-faible.png in Resources */,
-				4D0636751E5B2D3800BE4ED1 /* averses-de-pluie-faible.png in Resources */,
+				4D9C5EF81E5D89920008E531 /* faiblement-nuageux.png in Resources */,
 				4D0636171E5B1FAC00BE4ED1 /* BackgroundStars.png in Resources */,
-				4D0636781E5B2D3800BE4ED1 /* ciel-voile.png in Resources */,
-				4D0636761E5B2D3800BE4ED1 /* averses-de-pluie-forte.png in Resources */,
+				4D9C5EF31E5D89920008E531 /* ciel-voile.png in Resources */,
+				4D9C5EF11E5D89920008E531 /* averses-de-pluie-forte.png in Resources */,
+				4D9C5F051E5D89920008E531 /* pluie-faible.png in Resources */,
+				4D9C5ED11E5D898A0008E531 /* nuit-bien-degagee.png in Resources */,
+				4D9C5ED41E5D898A0008E531 /* nuit-legerement-voilee.png in Resources */,
+				4D9C5EFE1E5D89920008E531 /* neige-forte.png in Resources */,
 				4D0637441E5B32A800BE4ED1 /* BackgroundCloud.jpg in Resources */,
-				4D06368B1E5B2D3800BE4ED1 /* pluie-et-neige-melee-forte.png in Resources */,
-				4D0636841E5B2D3800BE4ED1 /* nuit-avec-averses.png in Resources */,
+				4D9C5F061E5D89920008E531 /* pluie-forte.png in Resources */,
+				4D9C5EF91E5D89920008E531 /* faiblement-orageux.png in Resources */,
+				4D9C5F041E5D89920008E531 /* pluie-et-neige-melee.png in Resources */,
+				4D9C5ECF1E5D898A0008E531 /* nuit-avec-averses.png in Resources */,
+				4D9C5ED21E5D898A0008E531 /* nuit-claire.png in Resources */,
+				4D9C5ECE1E5D898A0008E531 /* nuit-avec-averses-de-neige-faible.png in Resources */,
+				4D9C5EFA1E5D89920008E531 /* faibles-passages-nuageux.png in Resources */,
+				4D9C5EF41E5D89920008E531 /* couvert-avec-averses.png in Resources */,
+				4D9C5EFB1E5D89920008E531 /* fortement-nuageux.png in Resources */,
 				4D0636161E5B1FAC00BE4ED1 /* BackgroundLight.png in Resources */,
-				4D0636801E5B2D3800BE4ED1 /* neige-faible.png in Resources */,
 				4D0635F71E5B1E6E00BE4ED1 /* Main.storyboard in Resources */,
-				4D0636821E5B2D3800BE4ED1 /* neige-moderee.png in Resources */,
-				4D06368C1E5B2D3800BE4ED1 /* pluie-et-neige-melee-moderee.png in Resources */,
-				4D06367B1E5B2D3800BE4ED1 /* eclaircies.png in Resources */,
-				4D06368D1E5B2D3800BE4ED1 /* pluie-et-neige-melee.png in Resources */,
+				4D9C5EFD1E5D89920008E531 /* neige-faible.png in Resources */,
+				4D9C5EF61E5D89920008E531 /* eclaircies.png in Resources */,
+				4D9C5EF01E5D89920008E531 /* averses-de-pluie-faible.png in Resources */,
+				4D9C5EFC1E5D89920008E531 /* fortement-orageux.png in Resources */,
+				4D9C5F011E5D89920008E531 /* pluie-et-neige-melee-faible.png in Resources */,
+				4D9C5F071E5D89920008E531 /* pluie-moderee.png in Resources */,
+				4D9C5EFF1E5D89920008E531 /* neige-moderee.png in Resources */,
+				4D9C5EF51E5D89920008E531 /* developpement-nuageux.png in Resources */,
+				4D9C5ED31E5D898A0008E531 /* nuit-faiblement-orageuse.png in Resources */,
+				4D9C5EF71E5D89920008E531 /* ensoleille.png in Resources */,
+				4D9C5ED01E5D898A0008E531 /* nuit-avec-developpement-nuageux.png in Resources */,
+				4D9C5ED51E5D898A0008E531 /* nuit-nuageuse.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +606,7 @@
 				4D06360D1E5B1E6E00BE4ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D06360E1E5B1E6E00BE4ED1 /* Build configuration list for PBXNativeTarget "MCImagesTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +615,7 @@
 				4D0636101E5B1E6E00BE4ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
