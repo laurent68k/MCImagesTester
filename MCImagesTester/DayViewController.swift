@@ -29,9 +29,6 @@ class DayViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     }
 
     private func localInit() {
-
-        self.backgroundImageView.image = UIImage(named:"BackgroundLight.png")
-        self.backgroundImageView.contentMode = .scaleAspectFill
         
         self.pickerWheelView.delegate = self
         self.pickerWheelView.dataSource = self
@@ -39,6 +36,10 @@ class DayViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         self.pickerData = ImagesManager.listDay
         
         self.trendImageView.image = UIImage(named: self.pickerData[0])
+
+        self.backgroundImageView.image = ImagesManager.getBackgroundPictureCustom(forTrendPictureName: self.pickerData[0])
+        //self.pickerData[0]UIImage(named:"BackgroundLight.png")
+        self.backgroundImageView.contentMode = .scaleAspectFill
     }
     
     //  UIPIckerView delegate implementation
@@ -86,6 +87,7 @@ class DayViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         // The parameter named row and component represents what was selected.
         
         self.trendImageView.image = UIImage(named: self.pickerData[row])
+        self.backgroundImageView.image = ImagesManager.getBackgroundPictureCustom(forTrendPictureName: self.pickerData[row])
         
         if self.trendImageView.image == nil {
             
