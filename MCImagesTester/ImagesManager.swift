@@ -45,12 +45,13 @@ public class ImagesManager {
         ConditionsKeys.pluieEtNeigeMeleeFaible.rawValue : ("pluie-et-neige-melee-faible.png", "BackgroundClear.png"),
         ConditionsKeys.pluieEtNeigeMeleeForte.rawValue : ("pluie-et-neige-melee-forte.png", "BackgroundCloudy.png"),
         ConditionsKeys.pluieEtNeigeMeleeModeree.rawValue : ("pluie-et-neige-melee-moderee.png", "BackgroundCloudy.png"),
-        ConditionsKeys.pluieFaible.rawValue : ("pluie-faible.png", "BackgroundClear.png"),
+        ConditionsKeys.pluieFaible.rawValue : ("pluie-faible.png", "BackgroundCloudy.png"),
         ConditionsKeys.pluieForte.rawValue : ("pluie-forte.png", "BackgroundCloudy.png"),
         ConditionsKeys.pluieModeree.rawValue : ("pluie-moderee.png", "BackgroundCloudy.png"),
         ConditionsKeys.stratus.rawValue : ("stratus.png", "BackgroundClear.png"),
         ConditionsKeys.stratusSeDissipant.rawValue : ("stratus-se-dissipant.png", "BackgroundClear.png")
-        ]
+        
+    ]
     
     
     /// ---------------------------------------------------------------------------------------------------------------------------------------------
